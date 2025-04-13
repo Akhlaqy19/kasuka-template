@@ -1,0 +1,45 @@
+@import url("./../../App.css");
+
+.experance-container {
+    display: flex;
+    width: 100%;
+    margin: 0 4rem 2.8rem 6rem;
+}
+
+.experance-img {
+    width: 40%;
+}
+
+.experance-img img{
+    width: 100%;
+}
+
+.experance-info {
+    margin: 0 2.5rem;
+    width: 50%;
+}
+
+.experance-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 90%;
+
+}
+
+.experance-caption {
+    width: 75%;
+
+}
+
+.experance-caption p{
+    width: 110%;
+    color: var(--bs-gray-dark);
+}
+
+.experance-boxes {
+    margin-top: 1.5rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem 4rem;
+}

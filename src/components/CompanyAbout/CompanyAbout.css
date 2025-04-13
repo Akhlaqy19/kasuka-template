@@ -1,0 +1,49 @@
+@import url("./../../App.css");
+
+.about-container {
+    margin: 2rem 90px;
+    background-color: var(--bs-white);
+}
+
+
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.about-img {
+    width: 546px;
+    height: 410px;
+    margin-bottom: 9.6rem;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-info {
+    width: 50%;
+    line-height: 1.6;
+}
+
+.about-info h2{
+    font-size: 26px;
+    color: var(--bs-gray-dark);
+}
+
+.about-info p{
+    color: var(--bs-secondary);
+}
+
+.about-info:first-child {
+    text-align: justify;
+    font-weight: 400;
+    width: 48%;
+}
+
+.company-koens {
+    width: 88%;
+}
+

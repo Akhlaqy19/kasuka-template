@@ -1,0 +1,21 @@
+@import url("./../../App.css");
+
+.copyright-footer {
+    color: var(--bs-white);
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+.right-publish {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.right-publish a{
+    color: var(--bs-mango);
+}

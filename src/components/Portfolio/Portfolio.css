@@ -1,0 +1,142 @@
+@import url("./../../App.css");
+
+.portfolio-container {
+    margin: 3rem 4rem 0 4rem;
+    
+}
+
+.portfolio-list{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-list ul{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0 auto 20px auto;
+}
+
+.portfolio-list ul li{
+    display: inline-block;
+    background-color: transparent;
+    color: var(--bs-gray);
+    padding: 8px 15px 10px;
+    cursor: pointer;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.portfolio-list ul li:hover {
+    color: var(--bs-gray-dark);
+    background-color: var(--bs-mango);
+}
+
+.portfolio-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 1.6rem;
+}
+
+.portfolio-product {
+    overflow: hidden;
+}
+
+.portfolio-product img{
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.portfolio-product:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    overflow: hidden;
+    background: rgba(21, 21, 21, 0.6);
+}
+
+.portfolio-product:nth-child(4){
+    position: relative;
+    top: -9rem;
+}
+
+.portfolio-product:nth-child(5){
+    position: relative;
+    top: -9rem;
+}
+
+
+.portfolio-product:nth-child(7){
+    position: relative;
+    top: -9.5rem;
+}
+
+.portfolio-product:nth-child(8){
+    position: relative;
+    top: -28rem;
+}
+
+.portfolio-product:last-child{
+    position: relative;
+    left: 25.4rem;
+    top: -11.5rem;
+}
+
+/* .portfolio-1 {
+    grid-area: portfolio-1;
+}
+
+.portfolio-2 {
+    grid-area: portfolio-2;
+}
+
+.portfolio-3 {
+    grid-area: portfolio-3;
+}
+
+.portfolio-4 {
+    grid-area: portfolio-4;
+}
+
+.portfolio-5 {
+    grid-area: portfolio-5;
+}
+
+.portfolio-6 {
+    grid-area: portfolio-6;
+}
+
+.portfolio-7 {
+    grid-area: portfolio-7;
+}
+
+.portfolio-8 {
+    grid-area: portfolio-8;
+}
+
+.portfolio-9 {
+    grid-area: portfolio-9;
+} */
+
+.portfolio-product img{
+    width: 100%;
+}
+

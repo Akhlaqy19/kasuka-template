@@ -1,0 +1,58 @@
+@import url("./../../App.css");
+
+.comments-container {
+    background: url("./../../../public/images/testimonials-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: var(--bs-gray-dark); */
+    padding: 80px 0;
+    height: 24rem;
+}
+
+.comment-detail {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.user-profile-img {
+    width: 88px;
+    height: 88px;
+}
+
+.user-profile-img img{
+    width: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+    border: 5px solid rgba(0, 0, 0, 0.3);
+}
+
+.user-info h3{
+    color: var(--bs-white);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.user-info h4{
+    color: #ddd;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+
+/* .user-comment {
+
+} */
+
+.user-comment p{
+    color: #eee;
+    margin: 0 auto 15px auto;
+    text-align: justify;
+}

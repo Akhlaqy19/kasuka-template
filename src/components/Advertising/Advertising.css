@@ -1,0 +1,24 @@
+@import url("./../../App.css");
+
+.advertising-container {
+    display: flex;
+    gap: 2rem;
+    margin: 0 2rem 7rem;
+}
+
+.advertising-img {
+    width: 50%;
+}
+
+.advertising-img img{
+    width: 100%;
+}
+
+.advertising-info {
+    width: 50%;
+}
+
+.advertising-caption:not(:first-child) {
+    display: flex;
+    margin-top: 3rem;
+}

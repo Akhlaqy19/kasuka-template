@@ -1,0 +1,155 @@
+@import url("./../../App.css");
+
+a {
+    color: var(--bs-white);
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bs-white);
+    padding-bottom: 12px;
+}
+
+#footer-container {
+    background-color: var(--bs-dark);
+    color: var(--bs-white);
+    width: 100%;
+    height: 460px;
+    padding: 2rem 4rem 0 4rem;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-right {
+    margin-bottom: 30px;
+    margin-left: 3rem;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-img{
+    width: 80px;
+    height: 80px;
+} 
+
+.footer-logo-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-footer h3{
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+    padding: 2px 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* .logo-footer a{
+
+}
+
+.footer-company_info {
+    
+} */
+
+.footer-company_info{
+    color: var(--bs-white);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.footer-social_medias {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+/* 
+.footer-media {
+
+}
+
+.footer-media a{
+
+} */
+
+.footer-media a img{
+    background: none;
+    width: 36px;
+    height: 36px;
+}
+
+/* .about-links ul li,
+.services-links ul li{
+    
+} */
+
+.footer-left {
+    width: calc(100% / 3);
+}
+
+/* .footer-left h4{
+    
+} */
+
+.footer-left p{
+    margin-bottom: 1rem;
+}
+
+.footer-form {
+    position: relative;
+    margin-top: 30px;
+    padding: 6px 10px;
+    background: #fff;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.footer-form input:first-child{
+    
+    border: none;
+    padding: 4px;
+    width: calc(100% - 114px);
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.btn-folowing {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -1px;
+    padding: 0 20px;
+    border: none;
+    font-size: 1rem;
+    color: #151515;
+    background-color: var(--bs-mango);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+}

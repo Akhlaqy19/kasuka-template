@@ -1,0 +1,14 @@
+@import url("./../../App.css");
+
+
+.services-container {
+    margin: 0 4rem;
+    padding: 0 2rem;
+
+}
+
+.services-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}

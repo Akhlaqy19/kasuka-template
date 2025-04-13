@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-mango: #ffc451;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: "shabnam";
+    src: url("./../public/fonts/shabnam-font-v5.0.1/Shabnam-Medium.woff"), format("woff");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: irsans;
+    src: url("./../public/fonts/A-Iranian-Sans/Iranian-Sans.ttf"), format("ttf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "shabnam", irsans, sans-serif;
+    direction: rtl;
+    /* border: 1px solid black; */
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+    list-style: none;
+}
+
+p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+button,
+input,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+/* img {
+    width: 100%;
+} */
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin-bottom: 5px;
+    color: #aaaaaa;
+}
+
+.section-title h2::after{
+    content: "";
+    display: inline-block;
+    background-color: #ffde9e;
+    width: 120px;
+    height: 1px;
+    margin: 4px 10px;
+}
+
+.section-title h3{
+    margin: 0;
+    color: #151515;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: justify;
 }

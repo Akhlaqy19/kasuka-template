@@ -1,0 +1,27 @@
+@import url("./../../App.css");
+
+.user-links {
+    width: 16%;
+}
+
+.services-links {
+    width: 25%;
+}
+
+.user-links,
+.services-links {
+    margin-bottom: 30px;
+
+}
+
+.user-links h4,
+.services-links h4 {
+    padding: 0 2rem 12px 0;
+}
+
+.user-links ul,
+.services-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}

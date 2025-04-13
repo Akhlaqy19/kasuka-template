@@ -1,0 +1,31 @@
+@import url("./../../App.css");
+
+.advertising-caption {
+    display: flex;
+}
+
+.adverisiting-image {
+    width: 48px;
+    height: 48px;
+    color: var(--bs-mango);
+}
+
+.adverisiting-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-right: 1.2rem;
+}
+
+.adverisiting-detail h3 {
+    color: var(--bs-gray-dark);
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+
+.adverisiting-detail p {
+    color: #848484;
+    margin-top: 0;
+    text-align: justify;
+}

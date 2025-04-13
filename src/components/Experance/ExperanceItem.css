@@ -1,0 +1,25 @@
+@import url("./../../App.css");
+
+/* .experance-box {} */
+
+.experance-box img {
+    width: 36px;
+    height: 54px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experance-box span {
+    font-size: 2.5rem;
+}
+
+.experance-box p {
+    text-align: justify;
+    text-indent: 1.4rem;
+    font-size: 14px;
+    line-height: 1.5;
+}

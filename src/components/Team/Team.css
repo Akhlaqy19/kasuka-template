@@ -1,0 +1,14 @@
+@import url("./../../App.css");
+
+.team-container {
+    margin: 4rem auto;
+    width: 85%;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2rem;
+
+}

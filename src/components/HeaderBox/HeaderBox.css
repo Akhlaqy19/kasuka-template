@@ -1,0 +1,33 @@
+@import url("./../../App.css");
+
+.box-header {
+    display: block;
+    width: 165px;
+    height: 165px;
+    border: 0.5px solid var(--bs-white);
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    padding: 30px 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.box-header:hover {
+    border-color: var(--bs-mango);
+}
+
+.box-icon {
+    color: var(--bs-mango);
+    width: 2rem;
+    height: 2rem;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
